@@ -57,131 +57,49 @@
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="Gotham/stylesheet.css">
+	<link rel="stylesheet" media="screen and (min-width: 1237px)" href="CSS/stylesheet.css">
+	<link rel="stylesheet" media="screen and (max-width: 1236px)" href="CSS/mobile-stylesheet.css">
 
-	<style type="text/css">
-
-		body, html {
-  			height: 100%;
-  			overflow: scroll;
-  			scroll-behavior: smooth;
-  			font-family: "Gotham";
-		}
-
-		.grad {
-			position: relative;
-  			/* The image used */
-  			background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364 100%);
-
-  			/* Full height */
-  			height: 100%;
-			
-  			/* Center and scale the image nicely */
-  			background-position: center;
-  			background-repeat: no-repeat;
-  			background-size: cover;
-  		}
-
-  		.light {
-  			position: relative;
-  			/* The image used */
-  			background-color: #f8f9fa;;
-
-  			/* Full height */
-  			height: 100%;
-			
-  			/* Center and scale the image nicely */
-  			background-position: center;
-  			background-repeat: no-repeat;
-  			background-size: cover;
-  			padding: 5%;
-  		}
-
-  		.navbar {
-  			padding-left: 4%;
-  			padding-right: 4%;
-  			font-size: 1.4em;
-  			height: 100px;
-  		}
-
-  		.title {
-  			position: absolute;
-  			top: 50%;
-    		left: 50%;
-    		transform: translate(-125%,-50%);
-    		width: 40%;
-  			padding-left: 4%;
-  			color: #f8f9fa;
-  		}
-
-  		h1 {
-  			font-family: "Gotham Ultra";
-  			font-size: 4em;
-  		}
-
-  		h2 {
-  			font-weight: 100;
-    		font-style: normal;
-  			font-size: 2em;
-  		}
-
-  		.world {
-  			position: absolute;
-  			top: 50%;
-    		left: 50%;
-    		transform: translate(-16.666%,-50%);
-    		width: 60%;
-    		padding-right: 4%;
-		}
-
-		#container {
-			transform: translate(0, 0);
-			height: calc(100% - 100px);
-		}
-
-	</style>
 
 </head>
 
 <body>
-	<div class="grad">
-		<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
-		    <a class="navbar-brand" href="https://ipitman.github.io"><img src="Images/epic.png" height="74"></img></a>
-		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	<div class="site">
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+		    <a class="navbar-brand ml-5" href="https://ipitman.github.io"><img src="Images/epic.png" height="70"></img></a>
+		  	<button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
 		  	</button>
 		  	<div class="collapse navbar-collapse" id="navbarNav">
 		    	<ul class="navbar-nav ml-auto">
-		      		<li class="nav-item px-4">
+		      		<li class="nav-item px-5">
 		        		<a class="nav-link" href="https://www.facebook.com/ian.pitman.37" target="_blank"><img src="Images/Facebook.png" height="40"></a>
 		      		</li>
-		      		<li class="nav-item px-4">
+		      		<li class="nav-item px-5">
 		        		<a class="nav-link" href="https://github.com/ipitman" target="_blank"><img src="Images/GitHub.svg" height="40"></a>
 		      		</li>
-		      		<li class="nav-item pl-4">
+		      		<li class="nav-item px-5">
 		        		<a class="nav-link" href="https://www.linkedin.com/in/ian-pitman/" target="_blank"><img src="Images/LinkedIn.png" height="40"></a>
 		      		</li>
 		    	</ul>
 		    </div>
 		</nav>
-		<div id="container">
-			<div class="title">
-				<h1>Hi, I'm Ian</h1>
+		<div class="grad">
+		    <div class="title">
+		    	<h1>Hi, I'm Ian</h1>
 				<h2>a research assistant at <br> The Energy Policy Institute <br> at the University of Chicago</h2>
-			</div>
-			<img src="Images/world.png" class="world">
+		    </div>
+		    <div class="map">
+		    </div>
+		</div>
+		<div class="desc">
+			This is a rough draft of my personal website. More updates will be coming soon.
 		</div>
 	</div>
 
 
-	<div class="light">
-		<p>
-			This is a rough draft of my personal website. More updates will be coming soon.
-		</p>
-	</div>
-
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 
 </body>
