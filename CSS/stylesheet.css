@@ -23,6 +23,16 @@ body {
 	padding-right: 0px;
 }
 
+.navbar-brand > img {
+	padding-left: 4rem;
+	height: 72px;
+}
+
+.nav-item {
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+
 .grad {
 	display: grid;
 	grid-area: grad;
@@ -35,8 +45,8 @@ body {
 	justify-self: left;
 	grid-column: 1;
 	color: #f8f9fa;
-	padding: 3rem;
-	padding-right: 1.5rem;
+	padding: 4rem;
+	padding-right: 2rem;
 }
 
 .map {
@@ -46,8 +56,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	padding: 3rem;
-	padding-left: 1.5rem;
+	padding: 4rem;
+	padding-left: 2rem;
 }
 
 .map > img {
@@ -68,8 +78,21 @@ h2 {
 	font-size: 2em;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1297px) {
+		h1 {
+		font-family: "Gotham Ultra";
+		font-size: 3.2em;
+	}
+	
+	h2 {
+		font-weight: 100;
+		font-style: normal;
+		font-size: 1.6em;
+	}
+}
+
 .desc {
 	grid-area: desc;
 	background-color: #f8f9fa;
-	padding: 3rem;
+	padding: 4rem;
 }

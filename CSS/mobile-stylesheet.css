@@ -6,7 +6,7 @@ body {
 	width: 100vw;
 	height: 250vh;
 	display: grid;
-	grid-template-rows: 100px calc(100vh - 100px) 1fr 1fr 100px;
+	grid-template-rows: 75px calc(100vh - 75px) 1fr 1fr 75px;
 	grid-template-columns: auto;
 	
 	grid-template-areas:
@@ -23,6 +23,20 @@ body {
 	padding-right: 0px;
 }
 
+.navbar-brand > img {
+	padding-left: 2rem;
+	height: 54px;
+}
+
+.navbar-toggler {
+	margin-right: 2rem;
+}
+
+.nav-item {
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+
 .grad {
 	display: grid;
 	grid-area: grad;
@@ -36,8 +50,8 @@ body {
 	justify-self: center;
 	text-align: center;
 	color: #f8f9fa;
-	padding: 3rem;
-	padding-bottom: 1.5rem;
+	padding: 2rem;
+	padding-bottom: 1rem;
 }
 
 .map {
@@ -47,8 +61,8 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	padding: 3rem;
-	padding-top: 1.5rem;
+	padding: 2rem;
+	padding-top: 1rem;
 }
 
 h1 {
@@ -65,5 +79,5 @@ h2 {
 .desc {
 	grid-area: desc;
 	background-color: #f8f9fa;
-	padding: 3rem;
+	padding: 2rem;
 }
