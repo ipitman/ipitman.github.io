@@ -20,40 +20,44 @@ body {
 .grad {
 	display: grid;
 	grid-area: grad;
-	grid-template-rows: 2fr 3fr;
+	grid-template-rows: 1fr 2fr 2fr 1fr;
 	background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364 100%);
 }
 
 .title {
-	grid-row: 1;
-	align-self: end;
+	grid-row: 2;
+	align-self: center;
 	justify-self: center;
 	text-align: center;
 	color: #f8f9fa;
-	padding: 2rem;
-	padding-bottom: 1rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 .map {
-	grid-row: 2;
+	grid-row: 3;
 	background-image: url("../Images/world.png");
 	background-origin: content-box;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	padding: 2rem;
-	padding-top: 1rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 h1 {
 	font-family: "Gotham Ultra";
-	font-size: 3.2em;
+	font-size: 6vh;
 }
 
 h2 {
 	font-weight: 100;
 	font-style: normal;
-	font-size: 1.6em;
+	font-size: 3vh;
 }
 
 .desc {
