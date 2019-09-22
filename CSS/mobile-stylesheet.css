@@ -14,7 +14,6 @@ body {
 		"text_a graph_a"
 		"graph_b text_b"
 		"footer footer";
-	padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 .grad {
