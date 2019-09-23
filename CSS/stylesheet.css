@@ -20,7 +20,7 @@ body {
 	display: grid;
 	grid-area: grad;
 	grid-template-columns: 2fr 3fr;
-	background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364 100%);
+	background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
 }
 
 .title {
@@ -28,7 +28,7 @@ body {
 	align-self: center;
 	justify-self: left;
 	color: #f8f9fa;
-	padding-right: 5vw;
+	padding-right: 2.5vw;
 	padding-left: 5vw;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
@@ -42,36 +42,45 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding-right: 5vw;
-	padding-left: 5vw;
+	padding-left: 2.5vw;
 	padding-top: 5vh;
 	padding-bottom: 5vh;
 }
 
 h1 {
 	font-family: "Gotham Ultra";
-	font-size: 4vw;
+	font-size: calc(1.5rem + 1.8vw);
 }
 
 h2 {
 	font-weight: 100;
 	font-style: normal;
-	font-size: 2vw
+	font-size: calc(0.75rem + 0.9vw);
 }
 
 .desc {
 	grid-area: desc;
 	background-color: #f8f9fa;
-	padding: 4rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 .text_a {
 	grid-area: text_a;
 	background-color: #f8f9fa;
-	padding: 4rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 .text_b {
 	grid-area: text_b;
 	background-color: #f8f9fa;
-	padding: 4rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }

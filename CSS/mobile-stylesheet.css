@@ -19,8 +19,8 @@ body {
 .grad {
 	display: grid;
 	grid-area: grad;
-	grid-template-rows: 1fr 2fr 2fr 1fr;
-	background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364 100%);
+	grid-template-rows: 1fr 1.6fr 2.4fr 1fr;
+	background-image: linear-gradient(to right, #0F2027, #203A43, #2C5364);
 }
 
 .title {
@@ -31,8 +31,8 @@ body {
 	color: #f8f9fa;
 	padding-right: 5vw;
 	padding-left: 5vw;
-	padding-top: 5vh;
-	padding-bottom: 5vh;
+	padding-top: 2.5vh;
+	padding-bottom: 2.5vh;
 }
 
 .map {
@@ -44,35 +44,44 @@ body {
 	background-size: contain;
 	padding-right: 5vw;
 	padding-left: 5vw;
-	padding-top: 5vh;
-	padding-bottom: 5vh;
+	padding-top: 2.5vh;
+	padding-bottom: 2.5vh;
 }
 
 h1 {
 	font-family: "Gotham Ultra";
-	font-size: 6vh;
+	font-size: 6vh
 }
 
 h2 {
 	font-weight: 100;
 	font-style: normal;
-	font-size: 3vh;
+	font-size: 3vh
 }
 
 .desc {
 	grid-area: desc;
 	background-color: #f8f9fa;
-	padding: 2rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 .text_a {
 	grid-area: text_a;
 	background-color: #f8f9fa;
-	padding: 4rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 .text_b {
 	grid-area: text_b;
 	background-color: #f8f9fa;
-	padding: 4rem;
+	padding-right: 5vw;
+	padding-left: 5vw;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
