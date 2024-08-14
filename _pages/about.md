@@ -7,6 +7,4 @@ redirect_from:
   - /about.html
 ---
 
----
-
-This is a test for formatting purposes!
+This is another test for formatting purposes!
