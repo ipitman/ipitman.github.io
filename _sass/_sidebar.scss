@@ -146,11 +146,11 @@
 
 .author__bio {
   margin: 0;
-  margin-right: 20px; // Hack to reduce width of bio...
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+    margin-right: 20px;
   }
 }
 
