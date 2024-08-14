@@ -109,7 +109,7 @@
 
   @include breakpoint($large) {
     display: block;
-    width: 90%; // This can be changed to adjust sidebar width
+    width: 95%; // This can be changed to adjust sidebar width
     padding-left: 0;
     padding-right: 0;
   }
