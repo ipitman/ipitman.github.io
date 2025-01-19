@@ -4,7 +4,7 @@ collection: teaching
 type: "First-year PhD course"
 permalink: /teaching/empirical-analysis-i
 venue: "University of Chicago, Kenneth C. Griffin Department of Economics"
-date: 2022-01-01
+date: 2022-09-01
 ---
 
 I TA'd the first course in the core econometrics sequence for economics PhD students under Professor Azeem M. Shaikh.

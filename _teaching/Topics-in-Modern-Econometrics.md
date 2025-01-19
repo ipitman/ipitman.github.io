@@ -2,9 +2,9 @@
 title: "Topics in Modern Econometrics"
 collection: teaching
 type: "PhD-level lecture series"
-permalink: /teaching/machine-learning-for-economists
+permalink: /teaching/topics-in-modern-econometrics
 venue: "University of Chicago, Kenneth C. Griffin Department of Economics"
-date: 2023-01-01
+date: 2023-04-01
 ---
 
 I TA'd an econometrics lecture series under Professors Stéphane Bonhomme and Azeem M. Shaikh.
