@@ -7,6 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a fifth-year Ph.D. student in the Kenneth C. Griffin Department of Economics at the University of Chicago. This is a rough draft of my personal website - please bear with me as I continue to add content.
-
-My research interests lie broadly in applied econometrics, with a focus on causal inference and machine learning. My thesis is on robust statistical inference under model misspecification in non-standard econometric settings, including moment inequality models and models with shape restrictions.
+I am a Ph.D. candidate at the Kenneth C. Griffin Department of Economics at the University of Chicago. My research focuses on statistical inference and decision theory. My thesis develops optimal confidence procedures for partially identified models, with applications to difference-in-differences designs under relaxations of the parallel trends assumption.
