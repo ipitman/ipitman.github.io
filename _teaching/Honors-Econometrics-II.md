@@ -7,7 +7,7 @@ venue: "University of Chicago, Kenneth C. Griffin Department of Economics"
 date: 2024-04-01
 ---
 
-I TA'd an econometrics course for advanced undergraduate students under Professor Alex Torgovitsky.
+TA for Prof. Alex Torgovitsky: Econometrics for advanced undergraduates
 
 This course covers a variety of widely used econometrics methods, including instrumental variables designs, staggered difference-in-differences designs, and regression discontinuity designs. In the problem sets, students implement these methods from scratch using statistical programming languages such as R, Python, or STATA.
 
