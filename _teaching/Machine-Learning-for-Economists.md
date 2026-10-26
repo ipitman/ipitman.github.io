@@ -7,6 +7,6 @@ venue: "University of Chicago, Kenneth C. Griffin Department of Economics"
 date: 2023-01-01
 ---
 
-I TA'd an economics master's-level (ECMA) course on the use of machine learning in economics under Professor Kirill Ponomarev.
+TA for Prof. Kirill Ponomarev: Economics master's-level (ECMA) course on the use of machine learning in economics
 
 Student feedback can be found at the bottom of this [page](/files/Course-Feedback/Machine-Learning-for-Economists-Course-Feedback-2023.pdf).

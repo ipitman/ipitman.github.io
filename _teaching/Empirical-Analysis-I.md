@@ -7,7 +7,7 @@ venue: "University of Chicago, Kenneth C. Griffin Department of Economics"
 date: 2022-09-01
 ---
 
-I TA'd the first course in the core econometrics sequence for economics Ph.D. students under Professor Azeem M. Shaikh.
+TA for Prof. Azeem M. Shaikh: First course in the core econometrics sequence for Ph.D. students
 
 This course introduces students to fundamental concepts in probability theory and asymptotic theory. Students apply these concepts to formally derive the statistical properties of econometric methods they may already be familiar with, including ordinary least squares, two-stage least squares, and maximum likelihood estimation.
 
