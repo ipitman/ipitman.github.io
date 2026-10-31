@@ -11,3 +11,6 @@ author_profile: true
 ## Working Papers
 
 [**Quantifying Deterrence Effects in Judge Designs**](/files/Pitman-Deterrence-Effects.pdf)
+
+[**Distribution-Free Inference on Willingness-to-Pay in
+Binary Choice Experiments**](/files/Pitman-Choice-Experiments.pdf)
